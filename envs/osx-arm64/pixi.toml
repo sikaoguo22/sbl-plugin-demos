@@ -1,0 +1,18 @@
+[project]
+name = "sbl-pixi"
+version = "0.1.0"
+description = "Pixi environment for SBL + JupyterLab demos"
+authors = ["SBL Team"]
+
+channels = ["conda-forge", "bioconda", "sbl"]
+
+platforms = ["osx-arm64"]
+
+[dependencies]
+python = "3.12.*"
+sbl = "2.0.*"
+jupyterlab = "*"
+pixi-kernel = "*"
+
+[tasks]
+jupyter = "jupyter lab"

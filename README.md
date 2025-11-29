@@ -4,3 +4,9 @@ This repository contains a Pixi-based project that sets up all dependencies need
 - Simple installation instructions to install SBL following the official installation guide.​
 - A set of Jupyter notebooks demonstrating how to run SBL plugins on different molecular viewer (VMD, PyMOL, NGL viewer in Web).​
 - The goal is to serve as an shareable demo for new users, collaborators, and reviewers to quickly test SBL plugins without manual environment debugging.
+
+## Per-platform setup
+
+1. Pick the `envs/<platform>/pixi.toml` matching your machine (`linux-64`, `osx-64`, `osx-arm64`). For Windows users, use the `linux-64` version within WSL. 
+2. Create a new Pixi workspace (for example at `~/envs/sbl-pixi`) and place the chosen `pixi.toml` in that directory.  
+3. Use Pixi to install the environment and then follow the steps in `notebooks/01_install_sbl_with_pixi.ipynb` to install and configure SBL plugins.
