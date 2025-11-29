@@ -13,6 +13,10 @@ python = "3.12.*"
 sbl = "2.0.*"
 jupyterlab = "*"
 pixi-kernel = "*"
+jupyter = "*"
+ipython = "*"
+ipykernel = "*"
+python-dotenv = "*"
 
 [tasks]
 jupyter = "jupyter lab"
