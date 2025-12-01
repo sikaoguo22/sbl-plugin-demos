@@ -48,7 +48,17 @@ This repository contains a Pixi-based project that sets up all dependencies need
 
 [Usage instructions](notebooks/06_sbl_misa.ipynb)
 
-### sbl-spectraldom-run
+### sbl-spectraldom
 **[Defining domains within a polypeptide chain or protein](https://sbl.inria.fr/doc/Spectral_domain_explorer-user-manual.html)**
 
 [Usage instructions](notebooks/07_sbl_spectraldom.ipynb)
+
+### sbl-tripeptide-loop-closure
+**[Generate or modify tripeptide segments in protein structure](https://sbl.inria.fr/doc/Tripeptide_loop_closure-user-manual.html)**
+
+[Usage instructions](notebooks/08_sbl_tlc.ipynb)
+
+### sbl-alphafold-dbrun
+**[Characterizing the fragmentation of alphafold predictions](https://sbl.inria.fr/doc/Alphafold_analysis-user-manual.html)**
+
+[Usage instructions](notebooks/09_sbl_afdb.ipynb)
