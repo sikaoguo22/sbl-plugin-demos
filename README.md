@@ -47,3 +47,8 @@ This repository contains a Pixi-based project that sets up all dependencies need
 **[Combining MSA and interface models](https://sbl.inria.fr/doc/Multiple_interface_string_alignment-user-manual.html)**
 
 [Usage instructions](notebooks/06_sbl_misa.ipynb)
+
+### sbl-spectraldom-run
+**[Defining domains within a polypeptide chain or protein](https://sbl.inria.fr/doc/Spectral_domain_explorer-user-manual.html)**
+
+[Usage instructions](notebooks/07_sbl_spectraldom.ipynb)
