@@ -25,6 +25,11 @@ This repository contains a Pixi-based project that sets up all dependencies need
 - Interactive analysis and visualization
 - All plugins are automatically generated
 ### sbl-vorlume-pdb
-**[Computing Surface Area and Volume of a Molecule](https://sbl.inria.fr/doc/Space_filling_model_surface_volume-user-manual.html)**
+**[Computing surface area and volume of a molecule](https://sbl.inria.fr/doc/Space_filling_model_surface_volume-user-manual.html)**
 
 [Usage instructions](notebooks/02_sbl_vorlume_pdb.ipynb)
+
+### sbl-bif-chainW-atomic
+**[Interfaces and interactions within macro-molecular complexes](https://sbl.inria.fr/doc/Space_filling_model_interface_finder-user-manual.html)**
+
+[Usage instructions](notebooks/03_sbl_bif_chainw_atomic.ipynb)
