@@ -6,13 +6,11 @@ This repository contains a Pixi-based project that sets up all dependencies need
 - The goal is to serve as an shareable demo for new users, collaborators, and reviewers to quickly test SBL plugins without manual environment debugging.
 
 ## Resources
-
 - [SBL Home Page](https://sbl.inria.fr/) – Official website
 - [SBL Documentation](https://sbl.inria.fr/doc/) – Online documentation
 - [SBL YouTube Channel](https://www.youtube.com/channel/UClOhr0YMDkglcMKN5ZkMPnQ) – Video tutorials and demos
 
 ## Per-platform setup
-
 1. Pick the `envs/<platform>/pixi.toml` matching your machine (`linux-64`, `osx-64`, `osx-arm64`). For Windows users, use the `linux-64` version within WSL. 
 2. Create a new Pixi workspace (for example at `~/envs/sbl-pixi`) and place the chosen `pixi.toml` in that directory.  
 3. Use Pixi to install the environment and then follow the steps in `notebooks/01_install_sbl_with_pixi.ipynb` to install and configure SBL plugins.
@@ -24,6 +22,7 @@ This repository contains a Pixi-based project that sets up all dependencies need
 - Consistent usage across platforms
 - Interactive analysis and visualization
 - All plugins are automatically generated
+
 ### sbl-vorlume-pdb
 **[Computing surface area and volume of a molecule](https://sbl.inria.fr/doc/Space_filling_model_surface_volume-user-manual.html)**
 
@@ -43,3 +42,8 @@ This repository contains a Pixi-based project that sets up all dependencies need
 **[Reference structural aligner](https://sbl.inria.fr/doc/Kpax-user-manual.html)**
 
 [Usage instructions](notebooks/05_sbl_kpax.ipynb)
+
+### sbl-misa
+**[Combining MSA and interface models](https://sbl.inria.fr/doc/Multiple_interface_string_alignment-user-manual.html)**
+
+[Usage instructions](notebooks/06_sbl_misa.ipynb)
