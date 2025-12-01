@@ -33,3 +33,8 @@ This repository contains a Pixi-based project that sets up all dependencies need
 **[Interfaces and interactions within macro-molecular complexes](https://sbl.inria.fr/doc/Space_filling_model_interface_finder-user-manual.html)**
 
 [Usage instructions](notebooks/03_sbl_bif_chainw_atomic.ipynb)
+
+### sbl-intervor-ABW-atomic
+**[Dissecting macro-molecular interfaces](https://sbl.inria.fr/doc/Space_filling_model_interface-user-manual.html)**
+
+[Usage instructions](notebooks/04_sbl_intervor_abw_atomic.ipynb)
