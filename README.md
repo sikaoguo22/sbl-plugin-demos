@@ -38,3 +38,8 @@ This repository contains a Pixi-based project that sets up all dependencies need
 **[Dissecting macro-molecular interfaces](https://sbl.inria.fr/doc/Space_filling_model_interface-user-manual.html)**
 
 [Usage instructions](notebooks/04_sbl_intervor_abw_atomic.ipynb)
+
+### sbl-kpax-iterative-alignment
+**[Reference structural aligner](https://sbl.inria.fr/doc/Kpax-user-manual.html)**
+
+[Usage instructions](notebooks/05_sbl_kpax.ipynb)
